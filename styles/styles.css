@@ -4,16 +4,47 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain-1024x576.jpg")
 }
 
 main {
     padding: 30px;
+    margin: 30px;
+    width: 300px;
+    height: 9
+    00px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    color:green;
+    border-radius: 15px;
+
+
+}
+
+
+button {
+
+margin: 5px;
+}
+
+button:hover {
+
+background-color:lime;
+color:hotpink;
+
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: lawngreen;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 10px;
+    text-align:center;
     height: 110px;
-    padding: 0 30px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +60,36 @@ h1 {
     font-weight: bold;
 }
 
+hr {
+
+    border: dotted;
+    width: 200px;
+}
+
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+input {
+
+
+    border-radius:15px;
+    text-align: center;
+
+}
+
+input:hover {
+
+background-color:lawngreen;
+
+}
+
+span {
+
+    background-color: black;
+    padding:5px;
+    border-radius:10px;
+    color:lawngreen;
+    font-style: bold;
 }

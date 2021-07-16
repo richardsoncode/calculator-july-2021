@@ -1,6 +1,8 @@
-export function add(firstNumber, secondNumber) {
 
-return Number(firstNumber) + Number(secondNumber);
+
+export function add(plusNumberOne, plusNumberTwo) {
+
+return Number(plusNumberOne) + Number(plusNumberTwo);
 
 }
 

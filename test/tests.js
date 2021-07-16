@@ -105,3 +105,17 @@ test('divide should take in 12 and 3 and return 4', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+test('divide should take in 12 and 3 and return 4', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = 4;
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = divide("12",3);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
